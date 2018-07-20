@@ -4,7 +4,7 @@
 <head>
 	<title>TeamViewer</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<script src="http://localhost/test/assets/js/app.js"></script>
+	<script src="<?php echo $config->base_url;?>/assets/js/app.js"></script>
 </head>
 <body>
 	<form action="" method="post">
@@ -30,8 +30,8 @@
 				</div>
 				<div class="col-12">
 					<?php
-							//var_dump($ordinateurs->devices);
-							//var_dump($_POST);
+					//var_dump($ordinateurs->devices);
+					//var_dump($_POST);
 					echo "<table class='table table-striped' id='tableau'>";
 					echo "<tr>";
 					echo "<th>";
