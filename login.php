@@ -11,7 +11,7 @@
 		<div class="container" style="margin: 2em auto;">
 			<div class="row">
 				<div class="col-12">
-					<h1>TeamViewer - AppLyon3</h1>
+					<h1>TeamViewerWebApi</h1>
 				</div>
 				<div class="col-12 col-lg-9" style="margin: 2em auto;">
 
